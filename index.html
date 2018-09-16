@@ -26,15 +26,38 @@
 		<header style="background-color:olive; padding-top:70px; "> 
 			<div class="container"> 
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-5">
 						<br/><br/>
-						<h1><font color="#9ACD32">Измалкова Дарья</font></h1>
+						<h1><font color="#556B2F">Измалкова Дарья</font></h1>
 						<hr>
 						<p><i>Человек, который совсем не умеет делать HTML, <br />но не унывает :D</i></p> 
 	                </div>
 					<div class="col-md-7">
+						<div class="vignette">
         	            <img src="https://pp.userapi.com/c834100/v834100406/144918/UG23okOxOBk.jpg" >
 					</div>
+						* {box-sizing: border-box;}
+.vignette {
+  width: 400px;
+  margin: 50px auto 0;
+  position: relative;
+}
+.vignette img{
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.vignette:after  {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: radial-gradient(50% 50%, hsla(0, 0%, 100%, 0) 50%, #F1EBDF 100%);
+}
+						</div>
 	            </div>
 			</div>
 		</header>
@@ -42,7 +65,7 @@
 			<div class="container">
 				<div class="col-md-7">
 					<article>
-						<h3><font color="olive" face="Arial">О себе</font></h2>
+						<h3><font color="olive" >О себе</font></h2>
 						<p>Мой уровень работы с компьютерными программами<br /> примерно такой же как у бабушки, живущей в деревне.<br />
 							<br />
 							Не могу похвастаться какими-либо достижениями или <b>интересными</b> увлечениями;<br/>
